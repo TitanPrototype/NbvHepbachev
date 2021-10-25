@@ -2,16 +2,19 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using NbvHepbachev.Views;
+using NbvHepbachev;
 
 namespace NbvHepbachev
 {
     public partial class App : Application
     {
         public App()
+
         {
+            
             InitializeComponent();
 
-            MainPage = new MItgliederseite();
+            MainPage = new NavigationPage(new StartNachLogin());
         }
 
         protected override void OnStart()

@@ -133,4 +133,7 @@
       <Name>NbvHepbachev</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Gross.jpg" />
+  </ItemGroup>
 </Project>
