@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:viewmodels="clr-namespace:NbvHepbachev.ViewModels" x:DataType="viewmodels:MitgliederViewModel"
              x:Class="NbvHepbachev.Views.MItgliederseite">
 
 
@@ -22,7 +21,7 @@
         </StackLayout>
 
 
-            <ListView Grid.Row="1" ItemsSource="{Binding Mitglieders}">
+            <ListView Grid.Row="1" ItemsSource="{Binding Mitglieder}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>

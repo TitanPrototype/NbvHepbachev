@@ -19,7 +19,7 @@ namespace NbvHepbachev.Views
             InitializeComponent();
 
             BindingContext = new MitgliederViewModel();
-            
+            BindingContext = new Mitglieder();
             
         }
     }
