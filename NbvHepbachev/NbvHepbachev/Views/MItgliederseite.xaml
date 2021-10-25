@@ -20,7 +20,7 @@
                 <Entry Text="{Binding Umzug}" Placeholder="Umzug"/>
                 <Button WidthRequest="200" Text="Hinzufügen" Command="{Binding AddMitgliederCommand}" ></Button>
         </StackLayout>
-            <ListView Grid.Row="1" Itemsource="{Binding Mitglieder}">
+            <ListView Grid.Row="1" Itemsource="{Binding Mitglieders}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
