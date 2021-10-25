@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using NbvHepbachev.Models;
 using NbvHepbachev.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -19,8 +18,6 @@ namespace NbvHepbachev.Views
             InitializeComponent();
 
             BindingContext = new MitgliederViewModel();
-            BindingContext = new Mitglieder();
-            
         }
     }
 }
