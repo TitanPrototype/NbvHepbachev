@@ -7,7 +7,7 @@ using NbvHepbachev.Models;
 using NbvHepbachev.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using NbvHepbachev.Services;
+
 
 namespace NbvHepbachev.Views
 {
@@ -18,9 +18,9 @@ namespace NbvHepbachev.Views
         {
             InitializeComponent();
 
-            BindingContext = new Mitglieder();
             BindingContext = new MitgliederViewModel();
-            BindingContext = new DBFirebase();
+            
+            
         }
     }
 }
